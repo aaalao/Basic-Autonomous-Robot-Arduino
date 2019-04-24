@@ -2,14 +2,9 @@
  Remote controlled lamps
  
  This program controls a simple arduino Uno controlled autonomous robot to navigate an already known 
- path with 8 stations. The code continuosly wait for user input for destination. It then uses a combination 
- of the saved current robot station and the user destination to call the corresponding navigation function
-
- 04/10/2019
- Written By: 
-          Abiodun A Alao
-          Suhaib Sidiqui
-          Sarbjot Jhajj
+ path with 8 stations. The code continuosly wait for user input (from a connected IR remote controller 
+ and 1838T IR receiver) for destination. It then uses a combination of the saved current robot station 
+ and the user destination to call the corresponding navigation function
  */
  
  
